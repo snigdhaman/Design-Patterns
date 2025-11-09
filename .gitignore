@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore everything in .idea except shared run configurations
+.idea/*
+!.idea/runConfigurations/
+
+# But still ignore these
+*.iml
+*.iws
+*.ipr
+out/
