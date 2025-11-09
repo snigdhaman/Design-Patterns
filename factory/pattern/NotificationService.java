@@ -1,6 +1,6 @@
 package factory.pattern;
 
-public class FactoryTest {
+public class NotificationService {
     public static void main (String[] args) {
         try {
             NotificationFactory notificationFactory = new NotificationFactory();
